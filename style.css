@@ -1,0 +1,131 @@
+
+body{
+    background-image: url(img/istockphoto-1159866068-612x612.jpg);
+    background-size: cover;
+    background-position: center;   
+    color: white;
+}
+
+
+#team_Ateam{
+    font-size: 3.5rem!important;
+    font-weight: bold;
+}
+
+#team_Bteam{
+    font-size: 3.5rem!important;
+    font-weight: bold;
+}
+
+.name1{
+    padding: 1px 5px 5px 5px;
+    border-radius: 5px;
+    background-color: #6cacde;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.name2{
+    padding: 1px 5px 5px 5px;
+    border-radius: 5px;
+    background-color: #c70101;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.change_button{
+    padding: 1rem;
+    width: 20%;
+    border-radius: 10px;
+}
+
+.nav_Text{
+
+    text-shadow: 5px 5px 5px 5px #b12626!important;
+}
+
+.nav_Text {
+    animation: flash 1s infinite;
+  }
+
+  @keyframes flash {
+    0% {
+      color: red;
+    }
+    50% {
+      color: rgb(0, 0, 0); 
+    }
+    100% {
+      color: red;
+    }
+  }
+
+/* .nav_Text::before{
+    content: url(img/cast.svg);
+    margin-right: 20px;
+} */
+
+.nav_Text:hover{
+   color: rgb(255, 30, 0);
+}
+
+.ateam{
+    width: 400px!important;
+}
+.bteam{
+    width: 400px!important;
+}
+
+                     /*BUTTONS*/
+
+.team1_btn{
+    background-color: #6cacde;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.team1_btn:hover{
+    background-color: #3797e0;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+.team2_btn{
+    background-color: #c70101;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+.team2_btn:hover{
+    background-color: #b12626;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+.cleara{
+    height: 3rem;
+    width: 5rem;
+    border-radius: 5px;
+    color: white;
+    font-size: large;
+    background-color: #3797e0;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.clearb{
+    height: 3rem;
+    width: 5rem;
+    border-radius: 5px;
+    color: white;
+    font-size: large;
+    background-color: #b12626;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+@media(max-width: 992px){
+    .bdiv_class{
+        margin-top: 10px;
+    }
+}
